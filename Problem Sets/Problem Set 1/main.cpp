@@ -80,7 +80,7 @@ int main(int argc, char **argv) {
   postProcess(output_file, h_greyImage);
 
   referenceCalculation(h_rgbaImage, h_greyImage, numRows(), numCols());
-
+  
   postProcess(reference_file, h_greyImage);
 
   //generateReferenceImage(input_file, reference_file);
